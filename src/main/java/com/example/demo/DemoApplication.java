@@ -22,6 +22,7 @@ public class DemoApplication {
         System.out.println("two update");
         System.out.println("master");
         System.out.println("one");
+        System.out.println("one update");
         System.out.println("master2");
         System.out.println("master3");
         System.out.println("master4");
