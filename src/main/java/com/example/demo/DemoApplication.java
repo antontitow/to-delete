@@ -20,6 +20,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("master");
         System.out.println("master2");
+        System.out.println("master3");
 
 //        val groupByWho = getHateDtos().stream().collect(groupingBy(HateDto::getWho));
 //        show(groupByWho);
