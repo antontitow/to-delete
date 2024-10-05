@@ -6,4 +6,5 @@ public class Rebase4 {
     private String start3;
     private String on1;
     private String on2;
+    private String on3;
 }
