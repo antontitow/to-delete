@@ -6,5 +6,4 @@ public String mas2;
 public String mas3;
 public String tw1;
 public String tw2;
-public String tw3;
 }
