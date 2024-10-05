@@ -30,13 +30,13 @@ public class DemoApplication {
 //        val foloversWithMaxLikes = getFolovers().stream().collect(groupingBy(Folovers::getGroup,
 //                        maxBy(Comparator.comparingInt(Folovers::getLikes))));
 //        show(foloversWithMaxLikes);
-System.out.println(getFolovers().stream().map(Folovers::getLikes).collect(counting()));
-val summ = getFolovers().stream().collect(summarizingInt(Folovers::getLikes));
-System.out.println(summ.getSum());
-String test = "money";
-        test.chars().forEach(c -> {
-            System.out.println(c);
-        });
+//System.out.println(getFolovers().stream().map(Folovers::getLikes).collect(counting()));
+//val summ = getFolovers().stream().collect(summarizingInt(Folovers::getLikes));
+//System.out.println(summ.getSum());
+//String test = "money";
+//        test.chars().forEach(c -> {
+//            System.out.println(c);
+//        });
 //   Stream.of(test.toCharArray()).forEach(s->System.out.println(s));
 
 
