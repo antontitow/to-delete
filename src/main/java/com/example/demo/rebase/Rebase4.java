@@ -4,4 +4,5 @@ public class Rebase4 {
     private String start1;
     private String start2;
     private String on1;
+    private String on2;
 }
