@@ -20,6 +20,11 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("one");
         System.out.println("one update");
+        System.out.println("two");
+        System.out.println("two update");
+        System.out.println("master");
+        System.out.println("one");
+        System.out.println("one update");
         System.out.println("master");
         System.out.println("master2");
         System.out.println("master3");
@@ -32,7 +37,11 @@ public class DemoApplication {
         System.out.println("master5");
         System.out.println("master6");
         System.out.println("master7");
+        System.out.println("master8");
         System.out.println("one 8");
+        System.out.println("two2");
+        System.out.println("two3");
+        System.out.println("two4");
 
 //        val groupByWho = getHateDtos().stream().collect(groupingBy(HateDto::getWho));
 //        show(groupByWho);
