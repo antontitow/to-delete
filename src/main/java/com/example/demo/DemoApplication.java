@@ -19,6 +19,7 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("master");
+        System.out.println("one");
         System.out.println("master2");
         System.out.println("master3");
         System.out.println("master4");
