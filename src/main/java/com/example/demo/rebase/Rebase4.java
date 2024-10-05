@@ -6,4 +6,5 @@ public String mas2;
 public String mas3;
 public String on1;
 public String on2;
+public String on3;
 }
