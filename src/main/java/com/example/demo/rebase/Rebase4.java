@@ -5,6 +5,7 @@ public String mas1;
 public String mas2;
 public String mas3;
 public String th1;
+public String th2;
 public String tw1;
 public String tw2;
 public String tw3;
