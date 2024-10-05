@@ -21,6 +21,7 @@ public class DemoApplication {
         System.out.println("master");
         System.out.println("master2");
         System.out.println("master3");
+        System.out.println("master4");
 
 //        val groupByWho = getHateDtos().stream().collect(groupingBy(HateDto::getWho));
 //        show(groupByWho);
