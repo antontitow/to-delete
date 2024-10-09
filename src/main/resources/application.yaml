@@ -1,6 +1,25 @@
 spring:
   application:
     name: demo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/tony
+    username: tony
+    password: tony
+
+  sql:
+    init:
+      data-locations: classpath:db/*.sql
+      mode: always
+  jpa:
+    show-sql: true
+    #    defer-datasource-initialization: true;
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.PostgreSQLDialect"
+#        generate_statistics=true: true
 management:
   endpoints:
     web:

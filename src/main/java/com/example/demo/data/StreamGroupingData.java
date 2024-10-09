@@ -1,10 +1,8 @@
 package com.example.demo.data;
 
-import com.example.demo.HateDto;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
-import org.instancio.Instancio;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,25 +13,25 @@ import java.util.Optional;
 @Accessors(fluent = true, chain = true)
 @NoArgsConstructor
 public class StreamGroupingData {
-    public static List<HateDto> getHateDtoList() {
-        return Instancio.ofList(HateDto.class).size(15).create();
-    }
+//    public static List<HateDto> getHateDtoList() {
+//        return Instancio.ofList(HateDto.class).size(15).create();
+//    }
 
-    public static List<HateDto> getHateDtos() {
-        return Arrays.asList(
-                new HateDto("i", "look", "simple"),
-                new HateDto("i", "say", "simple"),
-                new HateDto("i", "say", "simple2"),
-                new HateDto("dim", "say", "pity"),
-                new HateDto("vik", "eat", "rice"),
-                new HateDto("vik", "seat", "wants"),
-                new HateDto("vik", "song", "wants"),
-                new HateDto("vik", "play", "wants"),
-                new HateDto("vik", "look", "wants"),
-                new HateDto("i", "think", "upset"),
-                new HateDto("i", "think", "upset"),
-                new HateDto("i", "think", "upset2"));
-    }
+//    public static List<HateDto> getHateDtos() {
+//        return Arrays.asList(
+//                new HateDto("i", "look", "simple"),
+//                new HateDto("i", "say", "simple"),
+//                new HateDto("i", "say", "simple2"),
+//                new HateDto("dim", "say", "pity"),
+//                new HateDto("vik", "eat", "rice"),
+//                new HateDto("vik", "seat", "wants"),
+//                new HateDto("vik", "song", "wants"),
+//                new HateDto("vik", "play", "wants"),
+//                new HateDto("vik", "look", "wants"),
+//                new HateDto("i", "think", "upset"),
+//                new HateDto("i", "think", "upset"),
+//                new HateDto("i", "think", "upset2"));
+//    }
 
     public static List<Folovers> getFolovers() {
         return Arrays.asList(
@@ -59,7 +57,7 @@ public class StreamGroupingData {
     public static void show(Map<String, Optional<Folovers>> foloversWithMaxLikes) {
         foloversWithMaxLikes.entrySet().stream().forEach(s -> {
             System.out.println(s.getKey());
-            s.getValue().ifPresent(k-> System.out.println(k));
+            s.getValue().ifPresent(k -> System.out.println(k));
         });
     }
 

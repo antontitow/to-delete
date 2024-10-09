@@ -18,30 +18,19 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
-        System.out.println("two");
-        System.out.println("two update");
-        System.out.println("master");
-        System.out.println("one");
-        System.out.println("one update");
-        System.out.println("master");
-        System.out.println("one");
-        System.out.println("one update");
-        System.out.println("master2");
-        System.out.println("master3");
-        System.out.println("one 3");
-        System.out.println("one 4");
-        System.out.println("one 5");
-        System.out.println("one 6");
-        System.out.println("one 7");
-        System.out.println("master4");
-        System.out.println("master5");
-        System.out.println("master6");
-        System.out.println("master7");
-        System.out.println("master8");
-        System.out.println("one 8");
-        System.out.println("two2");
-        System.out.println("two3");
-        System.out.println("two4");
+//        HateDto dto = new HateDto("q","w","d");
+//        HateDto dto4 = new HateDto("q","w","d");
+//        HateDto dto2 = null;
+//        HateDto dto3 = null;
+//        System.out.println(dto);
+//        System.out.println(dto2);
+//        System.out.println(dto3);
+//        System.out.println(dto4);
+//        Integer two = 120+7;
+//        Integer one = 127;
+//        System.out.println(one == two);
+
+
 
 //        val groupByWho = getHateDtos().stream().collect(groupingBy(HateDto::getWho));
 //        show(groupByWho);
@@ -85,29 +74,29 @@ public class DemoApplication {
 
 
 
+//
+//    private static void stream() {
+//        val hateDto = new HateDto();
+//        hateDto.setWhat("nothing");
+//        System.out.println(hateDto);
+//        List<HateDto> hateDto2 = new ArrayList<>();
+//        val streamHateDto = Optional.ofNullable(hateDto)
+//                .map(h -> {
+//                    hateDto.setWho("anybody");
+//                    hateDto2.add(hateDto);
+//                    hateDto2.add(new HateDto("newMe","born","for happy"));
+//                    return h;
+//                });
+//        System.out.println(streamHateDto);
+//        System.out.println(hateDto2);
+//    }
 
-    private static void stream() {
-        val hateDto = new HateDto();
-        hateDto.setWhat("nothing");
-        System.out.println(hateDto);
-        List<HateDto> hateDto2 = new ArrayList<>();
-        val streamHateDto = Optional.ofNullable(hateDto)
-                .map(h -> {
-                    hateDto.setWho("anybody");
-                    hateDto2.add(hateDto);
-                    hateDto2.add(new HateDto("newMe","born","for happy"));
-                    return h;
-                });
-        System.out.println(streamHateDto);
-        System.out.println(hateDto2);
-    }
-
-    private static void zulu2iso8601() {
-        var row = Set.of(1, 2, 3, 4, 5, 6, 7, 8);
-        var row2 = Set.of(22, 23, 34, 45, 56, 66, 77, 88);
-        var column = List.of(row, row2, row2, row);
-        var list = column.stream().flatMap(Collection::stream).filter(a -> a == 2 || a == 22).collect(Collectors.toList());
-        System.out.println(list);
+//    private static void zulu2iso8601() {
+//        var row = Set.of(1, 2, 3, 4, 5, 6, 7, 8);
+//        var row2 = Set.of(22, 23, 34, 45, 56, 66, 77, 88);
+//        var column = List.of(row, row2, row2, row);
+//        var list = column.stream().flatMap(Collection::stream).filter(a -> a == 2 || a == 22).collect(Collectors.toList());
+//        System.out.println(list);
 
 
 //        String zulud = "2024-03-12T14:05:13.656565Z";
@@ -149,6 +138,6 @@ public class DemoApplication {
 //        System.out.println(DateTimeFormatter.ISO_DATE_TIME.format(zonedDateTime));
 
 
-    }
+//    }
 
 }
