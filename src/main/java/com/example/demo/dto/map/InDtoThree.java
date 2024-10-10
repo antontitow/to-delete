@@ -8,7 +8,7 @@ public class InDtoThree extends InDto {
 
     @Override
     public String show() {
-        System.out.println("InDtoThree");
+//        System.out.println("InDtoThree");
         return "InDtoThree";
     }
 }
