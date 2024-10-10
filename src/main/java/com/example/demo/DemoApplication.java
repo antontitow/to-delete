@@ -18,6 +18,11 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+//        Map map = new HashMap<>();
+//        map.put(null, 10);
+//        map.put(0, 11);
+//        System.out.println("map.put(null, 10)");
+//        System.out.println(map.get(null));
 //        HateDto dto = new HateDto("q","w","d");
 //        HateDto dto4 = new HateDto("q","w","d");
 //        HateDto dto2 = null;

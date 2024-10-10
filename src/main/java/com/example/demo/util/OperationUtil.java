@@ -21,12 +21,12 @@ public class OperationUtil {
     private final List<OperationEntity> operations;
     private Map<String, OperationEntity> operationsMap;
 
-    @PostConstruct
-    public void groupOperations() {
-        operationsMap = operations.stream()
-                .collect(toMap(OperationEntity::getType, Function.identity()));
-//                .collect(groupingBy(OperationEntity::getType));
-        log.info(operationsMap.toString());
-    }
+//    @PostConstruct
+//    public void groupOperations() {
+//        operationsMap = operations.stream()
+//                .collect(toMap(OperationEntity::getType, Function.identity()));
+////                .collect(groupingBy(OperationEntity::getType));
+//        log.info(operationsMap.toString());
+//    }
 
 }
