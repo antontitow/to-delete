@@ -1,23 +1,15 @@
 package com.example.demo;
 
-import com.example.demo.data.Folovers;
-import com.example.demo.data.TupleWhoWhat;
-import lombok.val;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import static com.example.demo.data.StreamGroupingData.*;
-import static java.util.stream.Collectors.*;
 
 @SpringBootApplication
 public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+
+
 //        Map map = new HashMap<>();
 //        map.put(null, 10);
 //        map.put(0, 11);
@@ -34,7 +26,6 @@ public class DemoApplication {
 //        Integer two = 120+7;
 //        Integer one = 127;
 //        System.out.println(one == two);
-
 
 
 //        val groupByWho = getHateDtos().stream().collect(groupingBy(HateDto::getWho));
@@ -76,7 +67,6 @@ public class DemoApplication {
 //        stream();
 //        zulu2iso8601();
     }
-
 
 
 //
