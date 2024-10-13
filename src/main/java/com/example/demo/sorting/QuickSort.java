@@ -26,7 +26,7 @@ public class QuickSort extends Sort {
     private void quickSort(int[] array, int low, int high) {
         if (array.length == 0 || low >= high) return;
 
-        int middleIndex = (high - low) / 2;
+        int middleIndex = low + (high - low) / 2;
         System.out.println("middleIndex" + middleIndex);
         int middle = array[middleIndex];
         int i = low;
